@@ -1,0 +1,162 @@
+.contact_header {
+    background-color: #000;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact_header h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.contact_gif {
+    margin: auto;
+    text-align: center;
+}
+
+.contact_gif {
+    width: 35%;
+    margin: 40px 0px;
+}
+
+.contact_form {
+    background-color: #e8e8e8;
+    padding: 25px;
+    width: 100%;
+    margin: 40px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contact_form input {
+    margin: 10px auto;
+    padding: 15px;
+}
+
+.contact_form textarea {
+    border-radius: 10px;
+    width: 100%;
+    border: none;
+    padding: 15px;
+    margin: 10px auto;
+}
+
+.contact_form button {
+    width: 51%;
+    /* height: 137%; */
+    padding: 16px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.contact_form button:disabled {
+    background-color: rgb(224, 224, 224);
+}
+
+.contact_text {
+    float: left;
+    width: 30%; 
+}
+
+.contact_text h1 {
+    font-size: 24px;
+    color: #000;
+    font-weight: 700;
+}
+
+.contact_text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #807e7e;
+    margin-top: 10px;
+}
+
+.contact_address {
+    width: 100%;
+    float: left;
+}
+.contact_address h1 {
+    font-size: 24px;
+    color: #000;
+    font-weight: 700;
+}
+
+.contact_address p  {
+    font-size: 16px;
+    font-weight: 400;
+    color: #807e7e;
+    margin-top: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.contact_address p:hover {
+    color: #61dafb;
+}
+
+.contact_form h1 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.detailsBox  {
+    max-width:400px;
+    width:100%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 41px 25px rgba(0, 0, 0, 0.08);
+}
+
+.detailsBox:hover   {
+    box-shadow: 0px 0px 43px 27px rgba(0, 0, 0, 0.12);
+}
+
+.detailsBox h2 {
+    font-size:24px;
+    color: #000;
+    font-weight: 700;
+}
+
+.detailsBox p {
+    font-size:16px;
+    color: #807e7e;
+    font-weight: 400;
+}
+
+.PhoneIcon {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.detailsBox p {
+    word-break: break-all;
+}
+
+@media screen and (max-width:767px) {
+
+    .contact_text {
+        width: 50%; 
+    }
+
+    .contact_form button {
+        width: 100%;
+    }
+
+    .contact_gif {
+        width: 100%;
+    }
+
+    .remove_button {
+        width:100%;
+    }
+}

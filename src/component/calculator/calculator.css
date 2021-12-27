@@ -1,0 +1,83 @@
+
+.Calculator {
+    margin-bottom: 20px;
+}
+
+.app-title {
+    margin-bottom: 20px;
+}
+
+.Calculator input {
+    margin-bottom: 20px;
+    background-color: rgb(230, 230, 230);
+    width: 100%!important;
+    margin-right: 20px;
+    overflow:'hidden'
+}
+
+.sum_text {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 245px;
+}
+
+.Calculator button {
+    margin-right: 20px;
+}
+
+.Calculator button:disabled{
+background-color: #bfbfbf;
+}
+
+.Calculator button:disabled:hover{
+    opacity: 1;
+}
+
+.username {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.username input{
+    margin-top: 20px;
+    background-color: rgb(230, 230, 230);
+    margin-right: 20px;
+    width: 100%;
+}
+
+.name_text {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.calendar button {
+    background-color: unset!important;
+    color: black;
+}
+
+.react-calendar__month-view__weekdays {
+    display: flex;
+    text-align: center;
+    font-weight: 700;
+}
+
+.react-calendar__month-view__weekdays {
+    display: flex;
+    text-align: center;
+    font-weight: 700;
+}
+
+abbr[data-bs-original-title], abbr[title] {
+    text-decoration: none!important;
+    cursor: help;
+    text-decoration-skip-ink: none;
+}
+
+span.react-calendar__navigation__label__labelText.react-calendar__navigation__label__labelText--from {
+    font-weight: 700;
+    text-transform: uppercase;
+}

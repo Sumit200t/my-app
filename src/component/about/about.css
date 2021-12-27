@@ -1,0 +1,135 @@
+.about_header {
+    background-color: #000;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about_text {
+    padding-right: 50px;
+    padding-top: 20%;
+}
+.about_header h1 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+
+.about_text p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #807e7e;
+    margin-top: 20px;
+}
+
+.about_box {
+    margin-top: 40px;
+}
+.about_text h1 {
+    font-size: 24px;
+    color: #000;
+    font-weight: 700;
+}
+.about_text1 p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #807e7e;
+    margin-top: 20px;
+}
+
+.about_text1 {
+    padding-right: 50px;
+    padding-top: 20%;
+    padding-left: 45px;
+}
+
+.about_text1 h1 {
+    font-size: 24px;
+    color: #000;
+    font-weight: 700;
+}
+
+.what_box {
+    padding-top: 40px;
+    padding-bottom: 65px;
+}
+
+.what_text h1 {
+    font-size: 24px;
+    color: #000;
+    font-weight: 700;
+    text-align: center;
+}
+
+.icon_box h1 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    margin-top: 20px;
+}
+
+.icon_box p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #807e7e;
+    padding: 10px 40px;
+}
+.icon_box {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.icon_box span {
+    font-size: 50px;
+    text-align: center;
+    color: #61dafb;
+    background-color: #eaeaea;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    margin: auto;
+}
+
+.sliderimg {
+    width: 20%;
+    }
+
+.img {
+    width: 100px;
+    height: 100px;
+}
+
+.h3 {
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    padding: 30px;
+}
+
+.logo_img {
+    height: 45px;
+    padding: 28px;
+}
+
+.slick-initialized .slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    display: flex;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
